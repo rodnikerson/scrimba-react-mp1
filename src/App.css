@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  background-color: #242424;
+  color: #EDEADE;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  justify-content: center;
+  padding: 0 10px;
+  width: 100%;
+  height: 60px;
+  background-color: #D32E5E;
+  margin-bottom: 17.5px;
+}
+
+.logo {
+  width: 50px;
+}
+
+header > .logo, header > h3 {
+  background-color: transparent;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  border: 2.5px solid #D32E5E;
+  border-radius: 17.5px;
+  height: 275px;
+  margin: 0 10px;
+}
+
+section:not(:last-child) {
+  margin-bottom: 17.5px;
+}
+
+.infos {
+margin: 0 17.5px;
+height: 95%;
+}
+
+.visited-place-photo {
+  width: 175px;
+  height: 270px;
+  border-radius: 15px 0 0 15px;
+}
+
+.pin-icon {
+  width: 25px;
+}
+
+.local {
+  display: flex;
+  column-gap: 17.5px;
+  height: 15%;
+  align-items: center;
+}
+
+.local > p {
+  font-size: 0.75rem;
+  color: gray;
+}
+
+.icon-country {
+  display: flex;
+  gap: 8.75px;
+}
+
+h2 {
+  height: 15%;
+}
+
+.start-end {
+  height: 15%;
+}
+
+.desc {
+  height: 55%;
+}
+
+@media (max-width: 480px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section {
+    flex-direction: column;
+    width: 95%;
+    height: 700px;
+  }
+
+  .visited-place-photo {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .local {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .start-end, .local, h2 {
+    text-align: center;
+  }
+
+  h2 {
+    padding: 5px 0;
+  }
+
+  .infos {
+    border-radius: 0 0 17.5px 17.5px;
+  }
+}
