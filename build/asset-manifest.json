@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/scrimba-react-mp1/static/css/main.26fd10ff.css",
+    "main.js": "/scrimba-react-mp1/static/js/main.d4b353ad.js",
+    "static/js/787.91cd488e.chunk.js": "/scrimba-react-mp1/static/js/787.91cd488e.chunk.js",
+    "static/media/earth.png": "/scrimba-react-mp1/static/media/earth.c9a10b40a31e812d3e68.png",
+    "static/media/pin.png": "/scrimba-react-mp1/static/media/pin.2941e2a5db1db6e844e7.png",
+    "index.html": "/scrimba-react-mp1/index.html",
+    "main.26fd10ff.css.map": "/scrimba-react-mp1/static/css/main.26fd10ff.css.map",
+    "main.d4b353ad.js.map": "/scrimba-react-mp1/static/js/main.d4b353ad.js.map",
+    "787.91cd488e.chunk.js.map": "/scrimba-react-mp1/static/js/787.91cd488e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26fd10ff.css",
+    "static/js/main.d4b353ad.js"
+  ]
+}
